@@ -1,0 +1,87 @@
+$color_primario:#8C143B;
+$color_secundario:#203B73;
+$color_terciario:#ffff;
+$color_cuarto:lightgrey;
+$color_quinto:#1a1a1a;
+
+#login-form{
+    background-color:$color_primario;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+.login-form-popup {  
+    border-radius:15px;
+    background-color:$color_terciario;
+    color:black;
+    text-align:left;
+  }
+
+.login-form-popup-cross{
+    color:$color_terciario;
+    font-weight:bold;
+    font-size:40x;
+    &:hover{
+      color:$color_terciario;
+    }
+
+  }
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+
+.login-box{
+    width:620px;
+    height:480px;
+    margin:auto;
+    background-color:$color_cuarto;
+    
+  }
+
+.loging-bar-top{
+  background-color:$color_primario;
+}
+
+button{
+    background-color:$color_primario;
+    color: $color_terciario;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    &:hover{
+        background-color:$color_secundario;
+        color:$color_terciario;
+        border: 2px $color_terciario;
+    }
+}
+  
+
+  
+  /* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+img.avatar {
+    width: 50%;
+    margin-top:5px;
+    margin-bottom:20px
+  }
+  
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: left;
+    padding-top: 16px;
+  }
+  

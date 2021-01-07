@@ -1,0 +1,16 @@
+$color_primario:#8C143B;
+$color_secundario:#203B73;
+$color_terciario:#ffff;
+$color_cuarto:grey;
+$color_quinto:#1a1a1a;
+$color_sesto:#e5c100;
+
+.review-card{
+    border:none;
+}
+
+.review-stars li{
+    margin-top:20px;
+    color:$color-sesto;
+}
+

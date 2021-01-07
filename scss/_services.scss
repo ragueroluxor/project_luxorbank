@@ -1,0 +1,72 @@
+$color_primario:#8C143B;
+$color_secundario:#203B73;
+$color_terciario:#ffff;
+$color_cuarto:grey;
+$color_quinto:#1a1a1a;
+$color-septimo:#f0e4e8;
+$color-navbar:#8C143B;
+$color-navbar-text:#ffffff;
+
+.card-services-navbar{
+    background-color:$color-navbar;
+}
+.card-services-color{
+    color:$color-navbar-text;
+    &:hover{
+        color:$color-navbar-text;
+        font-weight:bold;
+        border:none;
+    }
+}
+
+.card-gift-table{
+    padding:20px;
+}
+
+.card-gift-text{
+    text-align:left;
+}
+
+.card-retirement-information{
+    text-align:left;
+}
+.card-retirement-align{
+    margin:auto;
+}
+.card-checking-category{
+    width:200px;
+    height:200px;
+    padding-top:20px;
+    margin:auto;
+}
+
+.card-credit-category{
+    width:250px;
+    height:190px;
+    padding-top:20px;
+    margin:auto;
+
+}
+
+.card-information-description{
+    margin-top:30px;
+    margin-left:30px;
+    text-align:left;
+    margin-top:20px;
+}
+
+.btn-retirement{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.card-information-background{
+    background-color:$color-septimo;
+    border:none;
+    border-radius:10px;
+}
+
+.gift-tittle{
+    text-align:left;
+    text-decoration:underline;
+}

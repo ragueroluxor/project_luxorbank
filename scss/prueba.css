@@ -1,0 +1,409 @@
+body {
+  font-family: 'Noto Sans SC', sans-serif;
+  height: 100vh;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.tituloprincipal {
+  margin-top: 80px;
+}
+
+h1 {
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 80px;
+}
+
+h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h4 {
+  Font-size: 25px;
+  color: #8C143B;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffff;
+}
+
+p {
+  font-size: 18px;
+  color: grey;
+  line-height: 1.8;
+  margin-bottom: 0px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+section {
+  padding: 120px 0;
+}
+
+.topmargin-xs {
+  margin-top: 15;
+}
+
+.topmargin-sm {
+  margin-top: 30;
+}
+
+.topmargin-lg {
+  margin-top: 60;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 15px 26px;
+  border-radius: 2px;
+  display: inline-block;
+  margin-top: 100px;
+}
+
+.login-popup-btn {
+  width: 250px;
+  height: 70px;
+  border-radius: 15px;
+}
+
+.btn-light {
+  background-color: #8C143B;
+  color: #ffff;
+  border: 2px #ffff;
+}
+
+.btn:hover {
+  background-color: #203B73;
+  color: #ffff;
+  font-weight: bold;
+}
+
+.bg-dark {
+  background-color: #1a1a1a !important;
+}
+
+#hero {
+  Background-image: url("../images/fondoinicio.jpg");
+  background-size: cover;
+  padding-top: 90px;
+  min-height: 800px;
+  color: #ffff;
+}
+
+#hero p {
+  color: #ffff;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  h1 {
+    font-size: 40px;
+    line-height: normal;
+  }
+}
+
+.content-center {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+
+.content-left-categoria {
+  margin: 0 auto 60px auto;
+  text-align: left;
+  color: #8C143B;
+}
+
+.margenes-secciones {
+  padding-top: 10px;
+}
+
+.carousel_valores_description {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.carrusel-background {
+  background-color: #8C143B;
+  opacity: 0.7;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.logo-brand {
+  min-width: 140px;
+  max-width: 160px;
+}
+
+.navbar {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  min-height: 100px;
+}
+
+.nav-link {
+  color: #8C143B;
+}
+
+.nav-link:hover {
+  color: #8C143B;
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  font-size: 40px;
+  color: #8C143B;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.rewards_container {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 2px;
+}
+
+.rewards_container img {
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.rewards_container img:hover {
+  -webkit-transform: scale(1, 2);
+  transform: scale(1.2);
+}
+
+.rewards_container_details {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  z-index: 9000;
+}
+
+.rewards_container_details h2 {
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.rewards_container_details h2 a p {
+  color: #ffffff;
+}
+
+.rewards_container_details_description {
+  color: #ffffff;
+}
+
+.card-services-navbar {
+  background-color: #8C143B;
+}
+
+.card-services-color {
+  color: #ffffff;
+}
+
+.card-services-color:hover {
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+}
+
+.card-gift-table {
+  padding: 20px;
+}
+
+.card-gift-text {
+  text-align: left;
+}
+
+.card-retirement-information {
+  text-align: left;
+}
+
+.card-retirement-align {
+  margin: auto;
+}
+
+.card-checking-category {
+  width: 200px;
+  height: 200px;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.card-credit-category {
+  width: 250px;
+  height: 190px;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.card-information-description {
+  margin-top: 30px;
+  margin-left: 30px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.btn-retirement {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.card-information-background {
+  background-color: #f0e4e8;
+  border: none;
+  border-radius: 10px;
+}
+
+.gift-tittle {
+  text-align: left;
+  text-decoration: underline;
+}
+
+#login-form {
+  background-color: #8C143B;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.login-form-popup {
+  border-radius: 15px;
+  background-color: #ffff;
+  color: black;
+  text-align: left;
+}
+
+.login-form-popup-cross {
+  color: #ffff;
+  font-weight: bold;
+  font-size: 40x;
+}
+
+.login-form-popup-cross:hover {
+  color: #ffff;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.login-box {
+  width: 620px;
+  height: 480px;
+  margin: auto;
+  background-color: lightgrey;
+}
+
+.loging-bar-top {
+  background-color: #8C143B;
+}
+
+button {
+  background-color: #8C143B;
+  color: #ffff;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #203B73;
+  color: #ffff;
+  border: 2px #ffff;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 50%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: left;
+  padding-top: 16px;
+}
+
+#footer {
+  padding: 30px 0;
+  max-width: auto;
+  text-align: center;
+  color: #ffff;
+}
+
+#footer a {
+  color: #ffff;
+}
+
+#footer a:hover {
+  color: #ffff;
+}
+
+#footer .list-inline .list-inline-item {
+  padding: 10px 15px;
+  font-size: 30px;
+}
+
+.footer-siteweb-tittle {
+  font-size: 20px;
+  color: #8C143B;
+}
+
+.text-dark:hover {
+  color: white;
+}
+
+.review-card {
+  border: none;
+}
+
+.review-stars li {
+  margin-top: 20px;
+  color: #e5c100;
+}
+/*# sourceMappingURL=prueba.css.map */

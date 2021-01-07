@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Financial Services and Banking">
+    <meta name="keywords" content="Financial, Credit Cards, Banking Services, Business">
+    <title>Welcome to Luxor Bank</title>
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link href="scss/prueba.css" rel="stylesheet">
+
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg colorbar colorbar fixed-top !important">
+
+        <div class="container">
+            <div class="row">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" class="logo-brand" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <ion-icon name="menu-outline"></ion-icon>
+            </div>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html" id="home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/aboutus.html" id="aboutus">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/personal.html" id="personal">Personal</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/business.html" id="business">Business</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/rewards.html" id="rewards">Rewards</a></li>
+            </ul>
+            </div>
+        </div>
+      </nav>
+
+      <section id="hero">
+          <div class="container">
+              <div class="content-center  topmargin-lg">
+                <h1 class="tituloprincipal">Welcome to Luxor Bank</h1>
+                <p>For more than 50 years, we have been committed to providing our clients with great service and powerful financial expertise to help them meet their financial goals and dreams</p>
+                <!--POP UP-->
+<!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-light login-popup-btn" data-toggle="modal" data-target="#exampleModal">
+                Click here if you are client
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content login-form-popup">
+                      <div class="modal-header  loging-bar-top">
+                        <div class="row">
+                          <div class="col-md-8">
+                        
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-4">
+                          <a href="index.html" class="login-form-popup-cross"><ion-icon name="close-outline"></ion-icon></a>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <!--INFORMACION A COMPLETAR POR EL USUARIO-->
+                      <div class="modal-body">
+                        <div class="imgcontainer">
+                          <img src="images/logo.png" alt="Avatar" class="avatar">
+                        </div>
+                      
+                        <div class="container">
+                          <label for="uname"><b>Please Include your SSN or EIN</b></label>
+                          <input type="text" placeholder="Enter your SSN or EIN" name="uname" required>
+                      
+                          <label for="psw"><b>Password</b></label>
+                          <input type="password" placeholder="Enter Password" name="psw" required>
+                      
+                          <button type="submit">Login</button>
+                          <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                          </label>
+                        </div>
+                      
+                        <div class="container" style="background-color:#f1f1f1">
+                          <span class="psw">Forgot <a href="#">password?</a></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </section>
+      <section class="review">
+        <div class="content-center">
+          <h2>Our <b>Clients</b> say...</b></h2>
+          <p>We really care about what our clients say. We are what we are thanks of them</p> 
+      </div>
+        <div class="content-center">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="review-card">
+              <img class="card-img-top" src="images/persona1.jpg" alt="Client Amanda Clark">
+              <div class="card-body">
+                <h3 class="card-title">Amanda Clark</h3>
+                <p class="card-text">"Choosing this bank, I could really notice a big saving this year. In fact, I could buy a new car this year"</p>
+                <ul class="list-inline review-stars">
+                  <li class="list-inline-item"><ion-icon name="star"></ion-icon></li>
+                  <li class="list-inline-item"><ion-icon name="star"></ion-icon></li>
+                  <li class="list-inline-item"><ion-icon name="star"></ion-icon></li>
+                  <li class="list-inline-item"><ion-icon name="star"></ion-icon></li>
+                  <li class="list-inline-item"><ion-icon name="star"></ion-icon></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="review-card">
+              <img class="card-img-top" src="images/persona2.jpg" alt="Client Steven Golf">
+              <div class="card-body">
+                <h3 class="card-title">Steven Golf</h3>
+                <p class="card-text">"My employee are very happy with all the benefits that Luxor Bank offers so if they are happy"</p>
+                <ul class="list-inline review-stars">
+                  <li class="list-inline-item"><ion-icon name="star"></ion-icon></li>
+                  <li class="list-inline-item"><ion-icon name="star"></ion-icon></li>
+                  <li class="list-inline-item"><ion-icon name="star"></ion-icon></li>
+                  <li class="list-inline-item"><ion-icon name="star"></ion-icon></li>
+                  <li class="list-inline-item"><ion-icon name="star"></ion-icon></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="review-card">
+              <img class="card-img-top" src="images/persona3.jpg" alt="Client Therese Prado">
+              <div class="card-body">
+                <h3 class="card-title">Therese Prado</h3>
+                <p class="card-text">"in 2018, I open my business and Luxor really helped me a lot with the growing of my business"</p>
+                <ul class="list-inline review-stars">
+                  <li class="list-inline-item"><ion-icon name="star"></ion-icon></li>
+                  <li class="list-inline-item"><ion-icon name="star"></ion-icon></li>
+                  <li class="list-inline-item"><ion-icon name="star"></ion-icon></li>
+                  <li class="list-inline-item"><ion-icon name="star"></ion-icon></li>
+                  <li class="list-inline-item"><ion-icon name="star"></ion-icon></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      </section>
+
+
+      <section id="footer" class="bg-dark">
+          <div class=container>
+            <small> Follow us</small>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li class="list-inline-item"><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li class="list-inline-item"><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li class="list-inline-item"><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+            </ul>
+            <small> All Rights Reserves. Created only for educational purposes</small>
+                
+          </div>
+      </section>
+      
+
+      <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+  </body>
+</html>

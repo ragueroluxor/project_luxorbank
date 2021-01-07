@@ -1,0 +1,125 @@
+$color_primario:#8C143B;
+$color_secundario:#203B73;
+$color_terciario:#ffff;
+$color_cuarto:grey;
+$color_quinto:#1a1a1a;
+
+
+body{
+    font-family: 'Noto Sans SC', sans-serif;
+    height:100vh;
+
+}
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+.tituloprincipal{
+    margin-top:80px;
+  }
+
+h1{
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+    
+}
+
+
+h2{
+  font-size: 48px;
+  margin-bottom:30px;
+}
+
+h3{
+  font-size: 20px;
+  font-weight:bold;
+}
+h4{
+  Font-size:25px;
+  color:$color_primario;
+  font-weight:bold;
+}
+
+h5{
+  font-size:20px;
+  font-weight:bold;
+  color:$color_terciario;
+}
+
+p{
+    font-size:18px;
+    color:$color_cuarto;
+    line-height: 1.8;
+    margin-bottom:0px;
+}
+
+a:hover{
+  text-decoration:none;
+}
+
+section{
+  padding:120px 0;
+}
+.topmargin-xs { margin-top:15;}
+.topmargin-sm { margin-top:30;}
+.topmargin-lg { margin-top:60;}
+
+.btn{
+    font-size:14px;
+    padding: 15px 26px;
+    border-radius: 2px;
+    display:inline-block;
+    margin-top:100px;
+}
+
+.login-popup-btn{
+  width:250px;
+  height:70px;
+  border-radius:15px;
+}
+
+.btn-light {
+    background-color:$color_primario;
+    color:$color_terciario;
+    border: 2px $color_terciario;
+}
+.btn:hover{
+    background-color:$color_secundario;
+    color:$color_terciario;
+    font-weight:bold;
+}
+
+.bg-dark{
+    background-color:$color_quinto !important;
+}
+
+#hero{
+  Background-image:url("../images/fondoinicio.jpg");
+  background-size:cover;
+  padding-top:90px;
+  min-height:800px;
+  color:$color_terciario;
+  p{
+      color:$color_terciario;
+  }
+  
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+    h1{ font-size:40px; line-height:normal;
+    }
+}
